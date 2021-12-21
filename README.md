@@ -7,8 +7,6 @@ A data set contains real messages that were sent during disaster events. Therefo
 # Goal
 The project include a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data.
 
-![web_interface](images/web_inteface.png)
-
 # Installation
  - Python3
  - Machine Learning Libraries: `NumPy`, `Pandas`, `Scikit-Learn`
