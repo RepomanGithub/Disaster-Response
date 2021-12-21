@@ -1,13 +1,11 @@
 # Disaster Response Pipeline Udacity
 
-# Description
+# Description and Goals
 This project provides a webinterface for analyze disaster data from Figure Eight. A model for an API that classifies disaster messages has been build.
 A data set contains real messages that were sent during disaster events. Therefore a machine learning pipeline have been created to categorize these events so that you can send the messages to an appropriate disaster relief agency.
-
-# Goal
 The project include a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data.
 
-# Installation
+# Includes
  - Python3
  - Machine Learning Libraries: `NumPy`, `Pandas`, `Scikit-Learn`
 -  Natural Language Process Libraries: `nltk`
