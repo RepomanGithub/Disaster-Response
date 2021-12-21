@@ -7,7 +7,7 @@ A data set contains real messages that were sent during disaster events. Therefo
 # Goal
 The project include a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data.
 
-![webinterface](images/webinteface.png)
+![web_interface](images/web_inteface.png)
 
 # Installation
  - Python3
@@ -55,4 +55,21 @@ The final output of the project is an **interactive web app** that takes a **mes
 ![test_message1](images/test_message1.png)
 ![test_message2](images/test_message2.png)
 
+**Classification Report running a Linear Support Vector Machines Classifier**.
+
+![classification_report](images/classification_report.png)
+
+**Distribution of Top 10 Categories by Genre**
+
+![top10cat_direct_](images/top10cat_direct.png)
+![top10cat_social_](images/top10cat_social.png)
+![top10cat_news_](images/top10cat_news.png)
+
+# Note 
+
+The dataset has highly **imbalanced classes**, i.e. there is an uniqual representation of classes. This affects the ML algorithms because the probability that the instances belong to the majority class is significantly high, so the algorithms are more likely to classify new observations to the majority class.
+
+# Licensing, Authors, Acknowledgments
+This project has been completed as part of the **Data Science Nanodegree** on [Udacity](https://www.udacity.com).
+The data was collected by [Figure Eight](https://appen.com) and provided by [Udacity](https://www.udacity.com).
 
