@@ -6,14 +6,14 @@ This project provides a webinterface for analyze disaster data from Figure Eight
 A data set contains real messages that were sent during disaster events. Therefore a machine learning pipeline have been created to categorize these events so that you can send the messages to an appropriate disaster relief agency.
 The project include a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data.
 
-# Includes:
+## Includes:
 
-    * **process_data.py**: This code will perform a data preprocessing due to the CRISP-DM process and creates a SQL database
-    * **train_classifier.py**: This code trains a KNN model
-    * **ETL** Pipeline Preparation.ipynb: This is the baseline for the process_data.py development procces
-    * **ML** Pipeline Preparation.ipynb: This is the baseline for the train_classifier.py. development procces
-    * **data**: This folders contains the CSV data for messages and categories.
-    * **app**: cointains the run.py for the web app.
+    - process_data.py: This code will perform a data preprocessing due to the CRISP-DM process and creates a SQL database
+    - train_classifier.py: This code trains a KNN model
+    - ETL Pipeline Preparation.ipynb: This is the baseline for the process_data.py development procces
+    - ML Pipeline Preparation.ipynb: This is the baseline for the train_classifier.py. development procces
+    - data: This folders contains the CSV data for messages and categories.
+    - app: cointains the run.py for the web app.
 
 
 ### Instructions for execution:
