@@ -44,28 +44,7 @@ The **notebooks folder** contains two jupyter notebooks that help you understand
 - **messages.csv**: Contains the id, message and genre, i.e. the method (direct, social, ...) the message was sent.
 - **categories.csv**: Contains the id and the categories (related, offer, medical assistance..) the message belonges to.
 
-# Results
-
-The final output of the project is an **interactive web app** that takes a **message from the user** as an input and then **classifies it** into the respective categories.
-
-![test_message1](images/test_message1.png)
-![test_message2](images/test_message2.png)
-
-**Classification Report running a Linear Support Vector Machines Classifier**.
-
-![classification_report](images/classification_report.png)
-
-**Distribution of Top 10 Categories by Genre**
-
-![top10cat_direct_](images/top10cat_direct.png)
-![top10cat_social_](images/top10cat_social.png)
-![top10cat_news_](images/top10cat_news.png)
-
-# Note 
-
-The dataset has highly **imbalanced classes**, i.e. there is an uniqual representation of classes. This affects the ML algorithms because the probability that the instances belong to the majority class is significantly high, so the algorithms are more likely to classify new observations to the majority class.
-
-# Licensing, Authors, Acknowledgments
-This project has been completed as part of the **Data Science Nanodegree** on [Udacity](https://www.udacity.com).
-The data was collected by [Figure Eight](https://appen.com) and provided by [Udacity](https://www.udacity.com).
+# Licensing
+This project is a part of the **Data Science Nanodegree** on [Udacity](https://www.udacity.com).
+The data have been provided by [Figure Eight](https://appen.com) and provided by [Udacity](https://www.udacity.com).
 
