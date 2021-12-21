@@ -1,4 +1,4 @@
-# Disaster-Response-Pipeline-Udacity
+# Disaster Response Pipeline Udacity
 
 # Description
 This project provides a webinterface for analyze disaster data from Figure Eight. A model for an API that classifies disaster messages has been build.
