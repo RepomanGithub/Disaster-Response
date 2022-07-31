@@ -96,7 +96,7 @@ def index():
                 }
             }
         },
-        # Categories Distribution in Direct Genre
+        # categories distribution in direct genre
         {
             'data': [
                 Bar(
