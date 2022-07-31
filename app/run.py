@@ -70,6 +70,11 @@ def index():
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
     
+    # plotting of categories distribution in direct genre
+    direct_cat = df[df.genre == 'direct']
+    direct_cat_count = (direct_cat.mean()*direct_cat.shape[0]).sort_values(ascending=False)
+    direct_cat_name = list(direct_cat_counts.index)
+    
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
     graphs = [
@@ -88,6 +93,25 @@ def index():
                 },
                 'xaxis': {
                     'title': "Genre"
+                }
+            }
+        },
+        # Categories Distribution in Direct Genre
+        {
+            'data': [
+                Bar(
+                    x=direct_cat_name,
+                    y=direct_cat_count
+                )
+            ],
+
+            'layout': {
+                'title': 'Categories Distribution in Direct Genre',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Categories in Direct Genre"
                 }
             }
         }
